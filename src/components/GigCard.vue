@@ -1,7 +1,7 @@
 <template>
     <v-card
       class="mx-auto"
-      width="250"
+      width="360"
       prepend-icon="mdi-calendar"
     >
       <template v-slot:title>
