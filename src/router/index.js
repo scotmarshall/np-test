@@ -28,6 +28,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "venues" */ '../views/VenuesView.vue')
   },
   {
+    path: '/np-test/gig/:id',
+    name: 'gigSingle',
+    component: () => import('../views/GigSingle.vue'),
+  },
+  {
     path: '/np-test/about',
     name: 'about',
     // route level code-splitting
