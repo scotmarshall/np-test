@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunknp_test"]=self["webpackChunknp_test"]||[]).push([[668],{3789:function(e,n,s){s.r(n),s.d(n,{default:function(){return l}});var t=s(7669);const u={class:"venues"},r=(0,t._)("h1",null,"This is the venues page",-1),c=[r];function a(e,n){return(0,t.wg)(),(0,t.iD)("div",u,c)}var i=s(7557);const f={},h=(0,i.Z)(f,[["render",a]]);var l=h}}]);
-//# sourceMappingURL=venues.253e0422.js.map

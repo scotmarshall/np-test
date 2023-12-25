@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunknp_test"]=self["webpackChunknp_test"]||[]).push([[726],{1919:function(t,s,n){n.r(s),n.d(s,{default:function(){return l}});var e=n(7669);const r={class:"artists"},u=(0,e._)("h1",null,"This is the artists page",-1),a=[u];function i(t,s){return(0,e.wg)(),(0,e.iD)("div",r,a)}var c=n(7557);const f={},h=(0,c.Z)(f,[["render",i]]);var l=h}}]);
-//# sourceMappingURL=artists.70aa804c.js.map
