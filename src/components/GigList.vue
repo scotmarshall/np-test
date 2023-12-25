@@ -7,8 +7,8 @@
           cols="auto"
         >
           <router-link :to="'/np-test/gig/' + gig.id">
-              <!-- <GigCard :gig="gig" /> -->
-              <GigCard />
+              <GigCard :gig="gig" />
+              <!-- <GigCard /> -->
           </router-link>
         </v-col>
       </v-row>

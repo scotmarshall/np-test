@@ -5,19 +5,16 @@
       prepend-icon="mdi-calendar"
     >
       <template v-slot:title>
-        <!-- {{ gig.name }} -->
-        Gig Name
+        {{ gig.name }}
       </template>
 
       <template v-slot:subtitle>
-        <!-- {{ gig.date }} @ {{ gig.time }} -->
-        Gig Date & Time
+        {{ gig.date }} @ {{ gig.time }}
       </template>
   
       <v-card-text>
         <!-- add router-link!!! -->
-        <!-- {{ gig.location }} -->
-        Gig Venue
+        {{ gig.location }}
       </v-card-text>
     </v-card>
 </template>
@@ -29,6 +26,6 @@
     name: 'GigCard',
   
     components: {},
-    // props: ['gig'],
+    props: ['gig'],
   });
 </script>

@@ -18,7 +18,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-app-bar-title>
-        <router-link :to="'/np-test/gig/'" >NP Test</router-link>
+        <router-link :to="'/np-test/'" >NP Test</router-link>
       </v-app-bar-title>
     </v-app-bar>
 
