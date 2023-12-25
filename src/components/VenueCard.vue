@@ -1,7 +1,7 @@
 <template>
     <v-card
       class="mx-auto"
-      width="400"
+      width="250"
       prepend-icon="mdi-warehouse"
     >
       <template v-slot:title>
