@@ -1,5 +1,19 @@
 <template>
-    <div class="venues">
-      <h1>This is the venues page</h1>
-    </div>
+  <v-container>
+    
+    <VenueList />
+  </v-container>
 </template>
+
+<script>
+import { defineComponent } from 'vue';
+import VenueList from '@/components/VenueList.vue';
+
+export default defineComponent({
+  name: 'VenuesView',
+
+  components: {
+    VenueList,
+  },
+});
+</script>

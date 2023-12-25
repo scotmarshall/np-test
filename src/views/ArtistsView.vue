@@ -1,5 +1,19 @@
 <template>
-    <div class="artists">
-      <h1>This is the artists page</h1>
-    </div>
+  <v-container>
+    
+    <ArtistList />
+  </v-container>
 </template>
+
+<script>
+import { defineComponent } from 'vue';
+import ArtistList from '@/components/ArtistList.vue';
+
+export default defineComponent({
+  name: 'ArtistsView',
+
+  components: {
+    ArtistList,
+  },
+});
+</script>

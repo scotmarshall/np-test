@@ -14,30 +14,31 @@ const routes = [
   {
     path: '/np-test/artists',
     name: 'artistsView',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "artists" */ '../views/ArtistsView.vue')
   },
   {
     path: '/np-test/venues',
     name: 'venuesView',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "venues" */ '../views/VenuesView.vue')
   },
   {
     path: '/np-test/gig/:id',
     name: 'gigSingle',
-    component: () => import('../views/GigSingle.vue'),
+    component: () => import(/* webpackChunkName: "gigSingle" */ '../views/GigSingle.vue'),
+  },
+  {
+    path: '/np-test/artist/:id',
+    name: 'artistSingle',
+    component: () => import(/* webpackChunkName: "artistSingle" */ '../views/ArtistSingle.vue'),
+  },
+  {
+    path: '/np-test/venue/:id',
+    name: 'venueSingle',
+    component: () => import(/* webpackChunkName: "venueSingle" */ '../views/VenueSingle.vue'),
   },
   {
     path: '/np-test/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   }
 ]
